@@ -7,7 +7,7 @@
 
 G21 ; set units to millimeters
 M107
-M104 S50 ; set temperature
+M104 S180 ; set temperature
 G28 ; home all axes
 G1 Z5 F5000 ; lift nozzle
 
